@@ -1,0 +1,12 @@
+#!/bin/bash
+source config.sh
+
+function usage {
+	echo "USAGE $(basename $0 what_to_clone)"
+}
+
+if [ $# -lt 1 ]; then
+	usage
+fi
+
+git clone https://${GIT_USER}@github.com/${GIT_REPO}/$1

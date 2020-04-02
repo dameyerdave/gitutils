@@ -1,0 +1,4 @@
+#!/bin/bash
+source config.sh
+
+git config credential.helper store

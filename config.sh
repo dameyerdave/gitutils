@@ -1,0 +1,2 @@
+GIT_USER=dameyerdave
+GIT_REPO=dameyerdave
